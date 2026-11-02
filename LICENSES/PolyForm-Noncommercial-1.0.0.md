@@ -1,4 +1,4 @@
-Required Notice: Copyright (c) 2026 York-14 (https://github.com/York-14)
+Required Notice: Copyright (c) 2026 Symbealab (https://github.com/Symbealab)
 
 # PolyForm Noncommercial License 1.0.0
 

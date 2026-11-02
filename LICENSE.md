@@ -1,6 +1,6 @@
 # License
 
-Copyright (c) 2026 York-14 (https://github.com/York-14)
+Copyright (c) 2026 Symbealab (https://github.com/Symbealab)
 
 This repository uses different licenses for different kinds of material.
 このリポジトリは、対象ごとに異なるライセンスを適用しています。
@@ -13,9 +13,9 @@ This repository uses different licenses for different kinds of material.
 
 ## Commercial use / 商用利用
 
-Commercial use of the code or the artwork — including delivering it as in-store digital signage, exhibiting it, or using it in video or print — requires permission from York-14. Please open an issue in this repository to ask.
+Commercial use of the code or the artwork — including delivering it as in-store digital signage, exhibiting it, or using it in video or print — requires permission from Symbealab. Please open an issue in this repository to ask.
 
-コードや作品の商用利用（店舗サイネージへの納品、展示、映像・印刷物への使用など）には、York-14 の許可が必要です。このリポジトリの Issue でご連絡ください。
+コードや作品の商用利用（店舗サイネージへの納品、展示、映像・印刷物への使用など）には、Symbealab の許可が必要です。このリポジトリの Issue でご連絡ください。
 
 ## Third-party material / 第三者の素材
 

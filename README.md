@@ -1,14 +1,14 @@
 # Design-Portfolio-1
 
-York-14 のデザイン・ジェネラティブアート作品集です。
+Symbealab のデザイン・ジェネラティブアート作品集です。
 
 ## Beauty Between Order and Chaos
 
-**Beauty Between Order and Chaos**（別名 Ivy Mandala）は、York-14 が 2026 年に制作した、ブラウザで動くジェネラティブアート作品です。Field & Golubitsky の対称カオス写像（symmetric icons）が描くアトラクタに沿って蔦と葉が伸び、秩序（Order）と混沌（Chaos）が 80〜120 BPM のテンポで繰り返します。外部ライブラリを使わない HTML 1 ファイル（Canvas 2D・Web Audio API）で動きます。
+**Beauty Between Order and Chaos**（別名 Ivy Mandala）は、Symbealab が 2026 年に制作した、ブラウザで動くジェネラティブアート作品です。Field & Golubitsky の対称カオス写像（symmetric icons）が描くアトラクタに沿って蔦と葉が伸び、秩序（Order）と混沌（Chaos）が 80〜120 BPM のテンポで繰り返します。外部ライブラリを使わない HTML 1 ファイル（Canvas 2D・Web Audio API）で動きます。
 
-> **English summary:** *Beauty Between Order and Chaos* (also known as *Ivy Mandala*) is a browser-based generative artwork by York-14 (2026). Ivy vines and leaves grow along the attractor of the Field–Golubitsky symmetric chaos map, and the piece cycles between order and chaos at a tempo that drifts between 80 and 120 BPM. The equation stays fixed while its parameters change for every flower, chosen by an aesthetic score, Beauty = Order × Complexity × Contrast. It runs as a single dependency-free HTML file using Canvas 2D and the Web Audio API.
+> **English summary:** *Beauty Between Order and Chaos* (also known as *Ivy Mandala*) is a browser-based generative artwork by Symbealab (2026). Ivy vines and leaves grow along the attractor of the Field–Golubitsky symmetric chaos map, and the piece cycles between order and chaos at a tempo that drifts between 80 and 120 BPM. The equation stays fixed while its parameters change for every flower, chosen by an aesthetic score, Beauty = Order × Complexity × Contrast. It runs as a single dependency-free HTML file using Canvas 2D and the Web Audio API.
 
-- 🌐 デモ / Demo: https://york-14.github.io/Design-Portfolio-1/ivy-order-chaos/
+- 🌐 デモ / Demo: https://symbealab.github.io/Design-Portfolio-1/ivy-order-chaos/
 - 📄 ソース / Source: [`ivy-order-chaos/index.html`](ivy-order-chaos/index.html)
 - ⚖️ ライセンス / License: コードは PolyForm Noncommercial 1.0.0、作品画像は CC BY-NC 4.0、この README の文章は CC BY 4.0（[ライセンス](#ライセンス)の節を参照）
 
@@ -23,14 +23,14 @@ York-14 のデザイン・ジェネラティブアート作品集です。
 | 項目 | 内容 |
 |---|---|
 | 作品名 | Beauty Between Order and Chaos（別名 Ivy Mandala） |
-| 作者 | York-14（https://github.com/York-14） |
+| 作者 | Symbealab（https://github.com/Symbealab） |
 | 制作年 | 2026 年（初公開 2026-10-04） |
 | 種別 | ジェネラティブアート、インタラクティブ作品、ブラウザ作品 |
 | 数理モデル | Field–Golubitsky 対称カオス写像、対称群 D<sub>n</sub> / C<sub>n</sub>、最大 Lyapunov 指数、Beauty = Order × Complexity × Contrast |
 | 動き | 64 拍で 1 輪。萌芽 → 成長 → 開花（秩序）→ 混沌 → 還元。テンポは 80〜120 BPM |
 | 操作 | タップで波紋、ドラッグで蔦が伸びる、WALK / CHAOS で花の選び方を切り替え、任意で拍同期のサウンド |
 | 技術 | HTML 1 ファイル、Canvas 2D、Web Audio API、外部ライブラリなし |
-| 元になった作品 | [Generative Flower — Order × Chaos](https://york-14.github.io/Generative-flower-Order-Chaos/)（York-14） |
+| 元になった作品 | [Generative Flower — Order × Chaos](https://symbealab.github.io/Generative-flower-Order-Chaos/)（Symbealab） |
 | ライセンス | コード: PolyForm Noncommercial 1.0.0 / 画像: CC BY-NC 4.0 / README の文章: CC BY 4.0 |
 
 ### 数理モデルとビジュアルの対応
@@ -122,7 +122,7 @@ BPM     = 80 + 40·tension   （約 2 秒で滑らかに追従）
 | `?quality=low` | 低スペック端末向け（DPR 1、粒子・蔦の数を削減） |
 | `?speed=4` | 時間倍率（プレビュー・確認用） |
 
-例: https://york-14.github.io/Design-Portfolio-1/ivy-order-chaos/?hud=0 （サイネージ用）
+例: https://symbealab.github.io/Design-Portfolio-1/ivy-order-chaos/?hud=0 （サイネージ用）
 
 ### サイネージ運用
 
@@ -135,7 +135,7 @@ BPM     = 80 + 40·tension   （約 2 秒で滑らかに追従）
 ### よくある質問
 
 **Beauty Between Order and Chaos はどんな作品ですか？**
-York-14 が 2026 年に制作した、ブラウザで動くジェネラティブアートです。対称カオス写像のアトラクタに沿って蔦と葉が伸び、秩序と混沌が 80〜120 BPM のテンポで繰り返します。
+Symbealab が 2026 年に制作した、ブラウザで動くジェネラティブアートです。対称カオス写像のアトラクタに沿って蔦と葉が伸び、秩序と混沌が 80〜120 BPM のテンポで繰り返します。
 
 **蔦の形は何で決まりますか？**
 Field & Golubitsky の対称カオス写像 `z(t+1) = (λ + α|z|² + β·Re(zⁿ) + iω)·z + γ·conj(z)^(n−1)` を反復してできるアトラクタの密度です。蔦はその密度の尾根をたどって伸び、対称群 D<sub>n</sub>（ω = 0 のとき）または C<sub>n</sub>（ω ≠ 0 のとき）で n 回（鏡映ありなら 2n 回）複製されます。
@@ -153,17 +153,17 @@ URL に `?seed=好きな文字列` を付けると、同じ SEED では同じパ
 最新のブラウザだけです。外部ライブラリは使っていません。スマホでも動き、`?quality=low` で低スペック端末向けに軽くできます。
 
 **商用で使えますか？**
-York-14 の許可なく商用利用（店舗サイネージへの納品、展示、映像・印刷物への使用など）はできません。個人の鑑賞・学習・研究・非営利の利用は自由です。詳しくは[ライセンス](#ライセンス)の節を参照してください。
+Symbealab の許可なく商用利用（店舗サイネージへの納品、展示、映像・印刷物への使用など）はできません。個人の鑑賞・学習・研究・非営利の利用は自由です。詳しくは[ライセンス](#ライセンス)の節を参照してください。
 
 ### 参考文献
 
 - M. Field, M. Golubitsky. *Symmetry in Chaos: A Search for Pattern in Mathematics, Art and Nature*. Oxford University Press, 1992（第 2 版: SIAM, 2009）。対称カオス写像（symmetric icons）の出典。
 - J. Jones. "Characteristics of Pattern Formation and Evolution in Approximations of *Physarum* Transport Networks." *Artificial Life* 16(2), 2010, pp. 127–153。蔦の先端が密度をたどる走性の考え方。
-- York-14. [Generative Flower — Order × Chaos](https://york-14.github.io/Generative-flower-Order-Chaos/)。写像の実装、品質基準 `isGood`、Beauty = Order × Complexity × Contrast の出典。
+- Symbealab. [Generative Flower — Order × Chaos](https://symbealab.github.io/Generative-flower-Order-Chaos/)。写像の実装、品質基準 `isGood`、Beauty = Order × Complexity × Contrast の出典。
 
 ### ライセンス
 
-Copyright © 2026 York-14. 対象ごとに次のライセンスを適用します。
+Copyright © 2026 Symbealab. 対象ごとに次のライセンスを適用します。
 
 | 対象 | ライセンス | できること |
 |---|---|---|
@@ -171,13 +171,13 @@ Copyright © 2026 York-14. 対象ごとに次のライセンスを適用しま�
 | 作品の画像・映像（`ivy-order-chaos/images/` と、作品を撮影・録画したもの） | [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt) | クレジットを表示した非営利の利用・改変 |
 | この README の文章 | [CC BY 4.0](LICENSES/CC-BY-4.0.txt) | クレジットを表示すれば、商用を含めて引用・転載・翻訳できる |
 
-商用利用（店舗サイネージへの納品、展示、映像・印刷物への使用など）を希望する場合は、このリポジトリの Issue で York-14 にご連絡ください。全体の説明は [LICENSE.md](LICENSE.md) にあります。
+商用利用（店舗サイネージへの納品、展示、映像・印刷物への使用など）を希望する場合は、このリポジトリの Issue で Symbealab にご連絡ください。全体の説明は [LICENSE.md](LICENSE.md) にあります。
 
 ### 引用するとき
 
 次の形式で引用してください。GitHub の「Cite this repository」からも同じ情報（[CITATION.cff](CITATION.cff)）を取得できます。
 
-> York-14. (2026). *Beauty Between Order and Chaos* [Generative artwork]. https://github.com/York-14/Design-Portfolio-1
+> Symbealab. (2026). *Beauty Between Order and Chaos* [Generative artwork]. https://github.com/Symbealab/Design-Portfolio-1
 
 ### 更新履歴
 

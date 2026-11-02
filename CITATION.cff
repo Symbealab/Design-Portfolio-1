@@ -3,15 +3,15 @@ message: "If you refer to this work, please cite it as below."
 title: "Beauty Between Order and Chaos"
 type: software
 authors:
-  - name: "York-14"
-    website: "https://github.com/York-14"
+  - name: "Symbealab"
+    website: "https://github.com/Symbealab"
 date-released: "2026-10-04"
-url: "https://york-14.github.io/Design-Portfolio-1/ivy-order-chaos/"
-repository-code: "https://github.com/York-14/Design-Portfolio-1"
+url: "https://symbealab.github.io/Design-Portfolio-1/ivy-order-chaos/"
+repository-code: "https://github.com/Symbealab/Design-Portfolio-1"
 license: PolyForm-Noncommercial-1.0.0
 abstract: >-
   Beauty Between Order and Chaos (also known as Ivy Mandala) is a browser-based
-  generative artwork by York-14 (2026). Ivy vines and leaves grow along the
+  generative artwork by Symbealab (2026). Ivy vines and leaves grow along the
   attractor of the Field–Golubitsky symmetric chaos map, and the piece cycles
   between order and chaos at a tempo that drifts between 80 and 120 BPM. The
   equation stays fixed while its parameters change for every flower, chosen by
